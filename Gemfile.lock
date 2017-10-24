@@ -72,6 +72,8 @@ GEM
     erubi (1.7.0)
     execjs (2.7.0)
     ffi (1.9.18-x86-mingw32)
+    flux-rails-assets (2.1.0)
+      railties (>= 3.1)
     font-awesome-rails (4.7.0.2)
       railties (>= 3.2, < 5.2)
     foundation-rails (5.4.5.0)
@@ -105,6 +107,8 @@ GEM
       activerecord
       kaminari-core (= 1.1.1)
     kaminari-core (1.1.1)
+    lodash-rails (4.17.4)
+      railties (>= 3.1)
     loofah (2.1.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -228,8 +232,10 @@ DEPENDENCIES
   ancestry
   byebug
   capybara (~> 2.13)
+  flux-rails-assets
   foundation-rails
   jbuilder (~> 2.5)
+  lodash-rails
   puma (~> 3.7)
   rails (~> 5.1.4)
   rails_admin
