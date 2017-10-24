@@ -2,7 +2,7 @@ var Comment = createReactClass({
 	propTypes: {
 		author: PropTypes.string,
 		body: PropTypes.string,
-		rank: PropTypes.integer
+		rank: PropTypes.number
 
 	},
 
